@@ -4,6 +4,7 @@ export default function Home() {
   const siteMap = [
     {
       path: '/beginner/1st',
+      heading: 'Setting up the Canvas',
     },
     {
       path: '/beginner/2nd',
@@ -23,10 +24,13 @@ export default function Home() {
       <div className='flex flex-col gap-y-8'>
         <h1>MENU</h1>
         <ul className='flex flex-col gap-y-4'>
-          {siteMap.map(({ path }) => {
+          {siteMap.map(({ path, heading }) => {
             return (
               <li key={path}>
-                <Link href={path}>{path}</Link>
+                <Link href={path}>
+                  {heading && <span className='text-xl'>{heading}</span>}
+                  <span className='block text-gray-500'>{path}</span>
+                </Link>
               </li>
             );
           })}
