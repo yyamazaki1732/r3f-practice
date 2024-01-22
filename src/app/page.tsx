@@ -16,9 +16,15 @@ export default function Home() {
     },
     {
       path: '/beginner/4th',
+      heading: 'Environment blur and transitions',
     },
     {
       path: '/beginner/5th',
+      heading: 'Camera Scroll',
+    },
+    {
+      path: '/beginner/6th',
+      heading: 'Scrollcontrols + GLTF',
     },
   ];
   return (
