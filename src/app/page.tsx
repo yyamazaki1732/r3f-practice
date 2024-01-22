@@ -8,10 +8,11 @@ export default function Home() {
     },
     {
       path: '/beginner/2nd',
-      heading: 'About the Canvas',
+      heading: 'Basic demo',
     },
     {
       path: '/beginner/3rd',
+      heading: 'drei/RenderTexture',
     },
     {
       path: '/beginner/4th',
