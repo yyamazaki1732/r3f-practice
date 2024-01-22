@@ -2,5 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+canvas {
+  width: 100% !important;
+  height: 100vh !important;
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  background: #f0f0f0;
 }

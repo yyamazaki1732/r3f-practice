@@ -8,6 +8,7 @@ export default function Home() {
     },
     {
       path: '/beginner/2nd',
+      heading: 'About the Canvas',
     },
     {
       path: '/beginner/3rd',
