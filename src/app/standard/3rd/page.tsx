@@ -6,11 +6,11 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, ContactShadows } from '@react-three/drei';
 
 export default function Page3rd() {
-  const Cube = dynamic(() => import('@/app/beginner/3rd/components/Cube'), {
+  const Cube = dynamic(() => import('@/app/standard/3rd/components/Cube'), {
     ssr: false,
   });
   const Dodecahedron = dynamic(
-    () => import('@/app/beginner/3rd/components/Dodecahedron'),
+    () => import('@/app/standard/3rd/components/Dodecahedron'),
     {
       ssr: false,
     }

@@ -3,9 +3,9 @@
 import { Suspense, useRef, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Environment } from '@react-three/drei';
-import Model from '@/app/beginner/5th/components/Model';
-import Overlay from '@/app/beginner/5th/components/Overlay';
-import '@/app/beginner/5th/page5th.css';
+import Model from '@/app/standard/5th/components/Model';
+import Overlay from '@/app/standard/5th/components/Overlay';
+import '@/app/standard/5th/page5th.css';
 
 export default function Page5th() {
   const overlay = useRef(null);

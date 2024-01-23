@@ -10,7 +10,7 @@ import {
   useGLTF,
   useAnimations,
 } from '@react-three/drei';
-import '@/app/beginner/6th/page6th.css';
+import '@/app/standard/6th/page6th.css';
 
 export default function Page6th() {
   return (

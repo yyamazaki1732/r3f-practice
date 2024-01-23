@@ -5,14 +5,14 @@ import { RenderTexture, PerspectiveCamera } from '@react-three/drei';
 
 export default function Cube() {
   const TextComponent = dynamic(
-    () => import('@/app/beginner/3rd/components/TextComponent'),
+    () => import('@/app/standard/3rd/components/TextComponent'),
     {
       ssr: false,
     }
   );
 
   const Dodecahedron = dynamic(
-    () => import('@/app/beginner/3rd/components/Dodecahedron'),
+    () => import('@/app/standard/3rd/components/Dodecahedron'),
     {
       ssr: false,
     }
